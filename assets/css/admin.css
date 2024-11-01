@@ -1,0 +1,48 @@
+.wooenc-row {
+    display: flex;
+    margin: 0 -15px;
+    box-sizing:  border-box;
+}
+.wooenc-row .wooenc-col75,
+.wooenc-row .wooenc-col25 {
+    padding: 0 15px;
+}
+.wooenc-row .wooenc-col75 {
+    width: 75%;
+}
+.wooenc-row .wooenc-col25 {
+    width: 25%;
+    box-sizing:  border-box;
+}
+.white-box {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #ddd;
+    border: 1px solid #ddd;
+}
+.white-box .form-table th {
+    width: 50%;
+}
+.white-box h2 {
+    margin-top: 0;
+}
+.star-ratings {
+    text-align:  center;
+    color: #ffcd00;
+}
+.star-ratings .dashicons {
+    font-size: 25px;
+    width: 25px;
+    height:  25px;
+}
+.wooenc-disclaimer {
+    color: #888;
+}
+.encrypt-user-table .users #ID {width: 4%;}
+.encrypt-user-table .users .column-user_login,
+.encrypt-user-table .users .column-user_name,
+.encrypt-user-table .users .column-user_email,
+.encrypt-user-table .users .column-display_name{width:19%}
+.encrypt-user-table #user-input-key{width:300px}
+.encrypt-user-table .errorKey span{background:red;color:#fff;padding:2px 5px;display:inline-block}
